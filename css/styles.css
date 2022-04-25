@@ -6,6 +6,7 @@
 }
 body {
   font-family: "Manrope";
+  width: 95%;
 }
 #process-section {
   padding: 50px;
@@ -137,13 +138,13 @@ button {
   width: 100%;
 }
 .img-1 {
-  background: url(https://i.postimg.cc/62tfFkDQ/car.png);
+  background: url(./images/car.png);
   background-size: cover;
   min-height: 50vh;
   width: 28%;
 }
 .img-2 {
-  background: url(https://i.postimg.cc/87vdckG5/red-black.png);
+  background: url(./images/red-black.png);
   background-size: cover;
   min-height: 50vh;
   width: 70%;

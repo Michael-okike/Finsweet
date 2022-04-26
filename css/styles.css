@@ -6,7 +6,6 @@
 }
 body {
   font-family: "Manrope";
-  width: 95%;
 }
 #process-section {
   padding: 50px;
@@ -147,27 +146,31 @@ button {
   background: url(https://i.postimg.cc/GtBW8kBh/red-black.png);
   background-size: cover;
   min-height: 50vh;
-  width: 70%;
+  width: 60%;
 }
 .get-in {
-  background: #ff6433;
+  background: url(https://i.postimg.cc/D0Ty2S2H/BG.png);
   background-size: cover;
+  position: relative;
   min-height: 50vh;
-  width: 57%;
+  width: 30%;
 }
 .get-in p {
-  font-size: 48px;
+  font-size: 82px;
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
-  line-height: 67px;
+  line-height: 140%;
   padding: 50px;
   margin-top: 10rem;
+  position: relative;
+  letter-spacing: -0.03em;
 }
 .get-in input[type="submit"] {
   background-color: black;
   color: #f2f2f2;
-  padding: 16px 40px;
+  padding: 25px 40px;
   border-radius: 15px;
+  margin-top: 5em;
   font-size: 18px;
   margin-left: 50px;
   border: none;

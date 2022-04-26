@@ -157,7 +157,7 @@ button {
 }
 
 .photo-set {
-  min-height: 50vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   width: 100%;
@@ -166,21 +166,21 @@ button {
 .img-1 {
   background: url(https://i.postimg.cc/Pqt0zGL7/car.png);
   background-size: cover;
-  min-height: 50vh;
+  height: 50vh;
   width: 28%;
 }
 
 .img-2 {
   background: url(https://i.postimg.cc/GtBW8kBh/red-black.png);
   background-size: cover;
-  min-height: 50vh;
-  width: 60%;
+  height: 50vh;
+  width: 42%;
 }
 
 .get-in {
   background: url(https://i.postimg.cc/D0Ty2S2H/BG.png);
   background-size: cover;
-  min-height: 50vh;
+  height: 50vh;
   width: 30%;
   background-position: absolute;
 }
@@ -190,7 +190,7 @@ button {
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   line-height: 50px;
-  padding: 30px;
+  padding: 50px;
   margin-top: 7rem;
 }
 

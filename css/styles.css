@@ -167,21 +167,21 @@ button {
   background: url(https://i.postimg.cc/Pqt0zGL7/car.png);
   background-size: cover;
   height: 50vh;
-  width: 28%;
+  width: 25%;
 }
 
 .img-2 {
   background: url(https://i.postimg.cc/GtBW8kBh/red-black.png);
   background-size: cover;
   height: 50vh;
-  width: 42%;
+  width: 35%;
 }
 
 .get-in {
   background: url(https://i.postimg.cc/D0Ty2S2H/BG.png);
   background-size: cover;
   height: 50vh;
-  width: 30%;
+  width: 40%;
   background-position: absolute;
 }
 

@@ -4,9 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+html {
   font-family: "Manrope";
-  width: 95%;
+  width: 98%;
 }
 #process-section {
   padding: 50px;
@@ -138,13 +138,13 @@ button {
   width: 100%;
 }
 .img-1 {
-  background: url(./images/car.png);
+  background: url(https://i.postimg.cc/Pqt0zGL7/car.png);
   background-size: cover;
   min-height: 50vh;
   width: 28%;
 }
 .img-2 {
-  background: url(./images/red-black.png);
+  background: url(https://i.postimg.cc/GtBW8kBh/red-black.png);
   background-size: cover;
   min-height: 50vh;
   width: 70%;

@@ -4,9 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
+body {
   font-family: "Manrope";
-  width: 98%;
+  max-width: 98%;
 }
 #process-section {
   padding: 50px;

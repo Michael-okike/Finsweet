@@ -406,8 +406,9 @@ button {
   align-content: center;
   justify-content: center;
   display: flex;
-  min-height: 35vh;
+  /* min-height: 35vh; */
   margin: 50px;
+  /* margin-bottom: 0; */
 }
 
 .container-5 h2 {
@@ -633,6 +634,7 @@ button {
   display: flex;
   list-style: none;
 }
+/* screen and (min-width: 320px) and  */
 @media (max-width: 426px) {
   .main-header{
     flex-direction: column;
@@ -669,6 +671,7 @@ button {
   }
   #hero-section .image-section{
     order: 1;
+    min-height: 30vh;
   }
   #hero-section .image-section img{
     align-items: baseline;
@@ -702,7 +705,7 @@ button {
     padding-bottom: 20px;
   }
   #quote-section .left-section h2{
-    font-size: 35px;
+    font-size: 30px;
     line-height: normal;
     padding-top: 10px;
     margin-bottom: 10px;
@@ -718,6 +721,10 @@ button {
   }
   #quote-section .left-section .text-box h5{
     margin-bottom: 5px;
+    font-size: 20px;
+  }
+  #quote-section .left-section .text-box p{
+    font-size: 16px;
   }
   #quote-section ul li{
     margin-bottom: 10px;
@@ -727,7 +734,7 @@ button {
     width: 100%;
   }
   #quote-section .right-form-section h3{
-    font-size: 35px;
+    font-size: 30px;
     line-height: normal;
     margin-bottom: 10px;
   }
@@ -794,7 +801,7 @@ button {
     border: none;
   }
   #offer{
-    min-height: 100vh;
+    min-height: 70vh;
   }
   #offer .container-4{
     padding: 0;
@@ -814,38 +821,45 @@ button {
   #offer .container-box .col-1 .box-2{
     display: flex;
   }
-  #offer .container-4 ,.top-text{
+  #offer .container-4 .top-text{
     margin-top: 10px;
     padding-top: 10px;
   }
-  #offer .container-4 ,.top-text h2{
+  #offer .container-4 .top-text h2{
     font-size: 30px;
     line-height: normal;
+  }
+  #cta .photo-set{
+    flex-direction: column;
+    width: 100%;
   }
   #cta .get-in p{
     font-size: 16px;
     padding: 0;
-    margin: 10px;
-    margin-bottom: 0;
+    margin: 0;
     line-height: normal;
-  }
-  #cta .get-in input{
-    padding: 5px;
-    margin: 5px;
-    font-size: 14px;
   }
   #cta{
     width: 100%;
-    min-height: 100vh;
     padding-bottom: 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  #cta .experience{
+    display: flex;
+    justify-content: space-between;
   }
   #cta .experience #first{
     margin: 0 auto;
-    padding-left: 10px;
+  }
+  #cta .experience .box{
+    margin: 0 auto;
   }
   #cta .experience h3{
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
+    line-height: normal;
   }
   #cta .experience p{
     font-size: 12px;
@@ -854,22 +868,48 @@ button {
     text-align: center;
   }
   #cta .experience{
-    margin: 0;
+    margin: 10px;
   }
-  #cta .photo-set .img-1{
-    height: 50vh;
+  .photo-set .img-1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
   }
   #cta .photo-set .img-2{
-    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
   }
   #cta .photo-set .get-in{
-    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  #cta .photo-set .get-in p{
+    padding: 10px;
+    font-size: 25px;
+    padding-bottom: 0;
+  }
+  #cta .photo-set .get-in input{
+    padding: 10px;
+    margin-left: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  #brands{
+    min-height: 10vh;
+    width: 100%;
   }
   #brands .container-5{
     margin-top: 10px;
+    margin-bottom: 20px;
   }
   #brands .container-5 h2{
-    font-size: 30px;
+    font-size: 27px;
     margin: 0;
     line-height: normal;
   }
@@ -881,27 +921,41 @@ button {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 30%;
+  }
+  #testimonials-section{
+    min-height: 10vh;
+    width: 100%;
   }
   #testimonials-section .heading h2{
-    font-size: 30px;
+    font-size: 20px;
     line-height: normal;
+    text-align: center;
   }
   #testimonials-section .heading{
     padding: 10px;
+    margin: 0 auto;
   }
   #testimonials-section .container-6{
     flex-direction: column;
+  }
+  #testimonials-section .container-6 h5{
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  #testimonials-section .container-6 .text-box p{
+    font-size: 11px;
   }
   #testimonials-section .container-6 .left-section{
     padding: 0;
     padding-top: 5px;
     margin: 0;
-    height: 60vh;
+    height: 20vh;
     width: 100%;
     margin-bottom: 10px;
   }
   .container-6 .left-section .comment-text p{
-    font-size: 14px;
+    font-size: 8px;
     margin: 0 10px 5px 10px;
   }
   .container-6 .left-section .comment .image-box img{
@@ -911,7 +965,7 @@ button {
     padding: 0;
     padding-top: 5px;
     margin: 0;
-    height: 60vh;
+    height: 20vh;
     width: 100%;
   }
   .container-6 .right-comment-section .comment .image-box{
@@ -921,7 +975,7 @@ button {
     width: 80%;
   }
   .container-6 .right-comment-section .comment-text p{
-    font-size: 14px;
+    font-size: 8px;
     margin: 0 10px 5px 10px;
   }
   #testimonials-section .lines{
@@ -968,6 +1022,9 @@ button {
   #faq .container-7 .q-2 .question img{
     width: 60%;
   }
+  #footer .top-container{
+    opacity: 0.85;
+  }
   #footer .top-container .container-8{
     flex-direction: column;
     width: 100%;
@@ -988,9 +1045,6 @@ button {
     font-size: 16px;
   }
   #footer .top-container .container-8 .rt h5{
-    margin: 0;
-  }
-  header{
     margin: 0;
   }
   #footer .bottom-container{

@@ -13,7 +13,6 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -50,14 +49,16 @@ body {
 .right-section .navigation {
   border-right: 2px solid grey;
 }
+#hero-section .container .flex{
+  justify-content: space-between;
+}
 .flex {
   display: flex;
 }
 #hero-section .text-section {
   width: 40%;
 }
-
-#hero-section .image-section {
+.image-section {
   width: 60%;
   min-height: 60vh;
 }
@@ -618,6 +619,7 @@ button {
   font-weight: 600;
   line-height: 28px;
   color: #939191;
+  margin: 0 auto;
 }
 #footer .bottom-container a{
   text-decoration: none;
@@ -629,8 +631,98 @@ button {
 #footer .bottom-container ul{
   display: flex;
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
+#footer .bottom-container .links{
+  margin: 0 auto;
+  width: 80%;
+}
+#footer .bottom-container .icon{
+  margin: 0 auto;
+}
+/* tablet view */
+@media (max-width: 769px) {
+  .container{
+    width: 90%;
+  }
+  .road-assistance{
+    display: none;
+  }
+  .text-section h1{
+    font-size: 35px;
+  }
+  .text-section button{
+    font-size: 16px;
+  }
+  .text-section .time-section .image-box{
+    margin-bottom: 20px; 
+  }
+  .text-section .time-section .time-text{
+    padding-left: 10px;
+  }
+  #hero-section .container .image-section{
+    width: 60%;
+  }
+  #hero-section .container .image-section img{
+    width: 100%;
+  }
+  #quote-section{
+    padding: 0;
+  }
+  #quote-section .left-section h2, 
+  #quote-section .right-form-section h3{
+    font-size: 40px;
+    line-height: normal;
+  }
+  #quote-section .left-section .image-box{
+    width: 10%;
+  }
+  #quote-section .left-section .text-box h5{
+    font-size: 20px;
+  }
+  #process-section, #process-section .process-left, #process-section .process-right{
+    padding: 0;
+  }
+  #process-section .process-left{
+    width: 40%;
+  }
+  #process-section .process-left h2{
+    font-size: 40px;
+    line-height: normal;
+  }
+  
+  #process-section .process-right{
+    width: 60%;
+  }
+  #process-section .process-right .image-box{
+    width: 50%;
+  }
+  #process-section .process-right .image-box img{
+    width: 50px;
+  }
+  #process-section .process-right .right-3{
+    width: 100%;
+  }
+  #process-section .process-right .right-3 h3{
+    font-size: 28px;
+    line-height: normal;
+  }
+  #process-section .process-right .right-3 p{
+    margin-top: 10px;
+    border: none;
+  }
+  #process-section .process-right .right-3 .note p{
+    width: 100%;
+    padding-right: 0;
+  }
 
+}
+  
+
+
+
+/* mobile view */
 @media (max-width: 426px) {
   .main-header{
     flex-direction: column;
@@ -866,19 +958,7 @@ button {
   #cta .experience{
     margin: 10px;
   }
-  .photo-set .img-1{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-  #cta .photo-set .img-2{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-  #cta .photo-set .get-in{
+  .photo-set .img-1, .photo-set .img-2, .photo-set .get-in{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -954,7 +1034,7 @@ button {
     font-size: 8px;
     margin: 0 10px 5px 10px;
   }
-  .container-6 .left-section .comment .image-box img{
+  .container-6 .left-section .comment .image-box img, .container-6 .right-comment-section .comment .image-box img{
     width: 80%;
   }
   #testimonials-section .container-6 .right-comment-section{
@@ -966,9 +1046,6 @@ button {
   }
   .container-6 .right-comment-section .comment .image-box{
     margin-right: 0;
-  }
-  .container-6 .right-comment-section .comment .image-box img{
-    width: 80%;
   }
   .container-6 .right-comment-section .comment-text p{
     font-size: 8px;

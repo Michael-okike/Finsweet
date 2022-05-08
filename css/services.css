@@ -52,28 +52,28 @@ body {
 .flex {
   display: flex;
 }
-#head-section .container{
-    padding: 80px 0;
+#head-section .container {
+  padding: 80px 0;
 }
-#head-section .container .image-section{
+#head-section .container .image-section {
   width: 40%;
 }
-#head-section .container .image-section img{
+#head-section .container .image-section img {
   width: 100%;
   object-fit: cover;
 }
-#head-section .container .text-section{
+#head-section .container .text-section {
   width: 50%;
   padding: 50px;
   background: black;
 }
-#head-section .container .text-section h2{
+#head-section .container .text-section h2 {
   font-size: 64px;
   font-weight: 800;
   line-height: 84px;
   color: white;
 }
-#head-section .container .text-section p{
+#head-section .container .text-section p {
   color: white;
   font-size: 18px;
   line-height: 31.5px;
@@ -81,160 +81,162 @@ body {
 }
 
 button {
-    background: #ff6433;
-    border-radius: 12px;
-    padding: 13px 30px;
-    margin-top: 25px;
-    color: white;
-    border: 1px solid #ff6433;
-    font-size: 18px;
-    cursor: pointer;
-  }
-  
-#service-section{
+  background: #ff6433;
+  border-radius: 12px;
+  padding: 13px 30px;
+  margin-top: 25px;
+  color: white;
+  border: 1px solid #ff6433;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#service-section {
   background: rgba(242, 242, 242, 1);
 }
-#service-section .container{
+#service-section .container {
   padding: 80px 0;
 }
-#service-section .left-section .container{
+#service-section .left-section .container {
   background: white;
   padding: 30px 30px 60px 30px;
 }
-#service-section .left-section, #service-section .right-section {
+#service-section .left-section,
+#service-section .right-section {
   width: 50%;
 }
-#service-section .left-section .text-section{
+#service-section .left-section .text-section {
   width: 100%;
 }
-#service-section .left-section .text-section h3{
+#service-section .left-section .text-section h3 {
   font-size: 48px;
   font-weight: 700;
   line-height: 67px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
-#service-section .left-section .container{
+#service-section .left-section .container {
   width: 80%;
   height: 740px;
   margin-left: 0;
 }
-#service-section .left-section .container .auto-section{
+#service-section .left-section .container .auto-section {
   width: 100%;
 }
-#service-section .left-section .container .auto-section img{
+#service-section .left-section .container .auto-section img {
   width: 100%;
 }
-#service-section .left-section .text-section p{
+#service-section .left-section .text-section p {
   font-size: 18px;
   font-weight: 600;
   line-height: 36px;
   opacity: 0.6;
   padding-bottom: 40px;
 }
-#service-section .left-section .end-note a{
+#service-section .left-section .end-note a {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-#service-section .left-section .end-note p{
+#service-section .left-section .end-note p {
   font-size: 18px;
   font-weight: 600;
   padding-right: 20px;
 }
-#service-section .right-section .container{
+#service-section .right-section .container {
   display: flex;
   padding: 0;
 }
-#service-section .right-section .container img{
-  margin-bottom: 20px;
-  object-fit: cover;
+#service-section .right-section .container img {
+  transform: scale(1.2);
+  cursor: pointer;
+  border: 4px solid rgba(242, 242, 242, 1);
 }
-#how-1-section .container{
+#how-1-section .container {
   padding: 80px 0;
 }
-#how-1-section .container .flex .container-3{
+#how-1-section .container .flex .container-3 {
   width: 50%;
 }
-#how-1-section .text-section{
+#how-1-section .text-section {
   width: 80%;
   margin: 0;
   height: 650px;
 }
-#how-1-section .container .flex .container{
+#how-1-section .container .flex .container {
   width: 50%;
 }
-#how-1-section .image-section{
+#how-1-section .image-section {
   width: 100%;
 }
-#how-1-section .image-section .car-image{
+#how-1-section .image-section .car-image {
   width: 70%;
   height: 600px;
 }
-#how-1-section .image-section .car-image img{
+#how-1-section .image-section .car-image img {
   width: 95%;
   height: 600px;
   object-fit: cover;
 }
-#how-1-section .text-section .points .image-box{
+#how-1-section .text-section .points .image-box {
   width: 10%;
 }
-#how-1-section .text-section .points p{
+#how-1-section .text-section .points p {
   width: 90%;
 }
-#how-1-section .text-section .points .image-box img{
+#how-1-section .text-section .points .image-box img {
   width: 100%;
   object-fit: cover;
 }
-#how-1-section .text-section h2{
+#how-1-section .text-section h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 67px;
   padding-bottom: 80px;
 }
-#how-1-section .text-section p{
+#how-1-section .text-section p {
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
   margin-bottom: 70px;
   padding-left: 20px;
 }
-#how-1-section .image-section .container-2{
+#how-1-section .image-section .container-2 {
   padding: 0;
   width: 80%;
   margin: 0;
   height: 600px;
 }
-#how-2-section .container{
+#how-2-section .container {
   padding: 80px 0;
 }
-#how-2-section .container .image-section{
+#how-2-section .container .image-section {
   width: 50%;
   height: 600px;
 }
-#how-2-section .container .image-section .car-image{
+#how-2-section .container .image-section .car-image {
   width: 90%;
 }
-#how-2-section .container .image-section .car-image img{
+#how-2-section .container .image-section .car-image img {
   width: 80%;
   height: 600px;
   object-fit: cover;
 }
-#how-2-section .container .text-section{
+#how-2-section .container .text-section {
   width: 40%;
 }
-#how-2-section .container .text-section .container{
+#how-2-section .container .text-section .container {
   padding: 0;
   width: 70%;
   height: 781.1;
 }
-#how-2-section .container .text-section h2{
+#how-2-section .container .text-section h2 {
   font-size: 48px;
   font-weight: 700;
   line-height: 70px;
   padding-bottom: 90px;
 }
-#how-2-section .container .text-section p{
+#how-2-section .container .text-section p {
   font-size: 18px;
   font-weight: 600;
   line-height: 50px;
@@ -290,215 +292,223 @@ button {
   border: none;
   cursor: pointer;
 }
-#footer{
+#footer {
   width: 100%;
 }
-#footer .top-container{
+#footer .top-container {
   background: black;
   opacity: 0.95;
   width: 100%;
 }
-#footer .top-container .container-8{
+#footer .top-container .container-8 {
   display: flex;
   justify-content: space-between;
   padding: 100px;
   width: 70%;
   margin: auto;
 }
-#footer .container-8 .lt h3{
+#footer .container-8 .lt h3 {
   font-size: 72px;
   font-weight: 700;
   line-height: 67.2px;
   color: white;
   margin-bottom: 100px;
-  letter-spacing: -0.03em
+  letter-spacing: -0.03em;
 }
-.container-8 .lt img{
+.container-8 .lt img {
   text-decoration: none;
   width: 50%;
   object-fit: cover;
 }
-.container-8 .rt h5{
+.container-8 .rt h5 {
   font-size: 18px;
   line-height: 32px;
   color: white;
   opacity: 0.6;
   margin-bottom: 20px;
 }
-.container-8 .rt p{
+.container-8 .rt p {
   font-size: 24px;
   color: white;
   line-height: 36px;
   margin-bottom: 50px;
 }
-#footer .bottom-container{
+#footer .bottom-container {
   background: black;
   display: flex;
   justify-content: space-between;
   min-height: 15vh;
   align-items: center;
 }
-#footer .bottom-container p{
+#footer .bottom-container p {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
   color: #939191;
   margin: 0 auto;
 }
-#footer .bottom-container a{
+#footer .bottom-container a {
   text-decoration: none;
   font-size: 20px;
   line-height: 28px;
   color: white;
   margin-right: 40px;
 }
-#footer .bottom-container ul{
+#footer .bottom-container ul {
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
 }
-#footer .bottom-container .links{
+#footer .bottom-container .links {
   margin: 0 auto;
   width: 80%;
 }
-#footer .bottom-container .icon{
+#footer .bottom-container .icon {
   margin: 0 auto;
 }
 
-
 /* mobile view */
 @media (max-width: 426px) {
-  .main-header{
+  .main-header {
     flex-direction: column;
     align-items: flex-start;
   }
-  .right-section .navigation{
+  .right-section .navigation {
     border: none;
     width: 100%;
   }
-  .right-section .navigation ul{
+  .right-section .navigation ul {
     flex-direction: column;
   }
-  .right-section .navigation ul li{
+  .right-section .navigation ul li {
     padding: 10px;
     margin-right: 0px;
   }
-  .right-section .navigation ul a{
+  .right-section .navigation ul a {
     display: block;
   }
-  .right-section{
+  .right-section {
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    display: none
+    display: none;
   }
-  .road-assistance{
+  .road-assistance {
     padding: 10px 0;
   }
-  .flex{
+  .flex {
     flex-direction: column;
   }
-  #head-section .container{
+  #head-section .container {
     padding: 10px;
     margin: 0;
     width: 100%;
   }
-  #head-section .container .image-section, #head-section .container .text-section{
+  #head-section .container .image-section,
+  #head-section .container .text-section {
     width: 100%;
   }
-  #head-section .container .image-section img{
+  #head-section .container .image-section img {
     object-fit: cover;
   }
-  #head-section .container .text-section{
+  #head-section .container .text-section {
     padding: 0;
     padding-left: 20px;
   }
-  #head-section .container .text-section h2{
+  #head-section .container .text-section h2 {
     font-size: 25px;
     line-height: 40px;
   }
-  #head-section .container .text-section p{
+  #head-section .container .text-section p {
     font-size: 12px;
     line-height: normal;
     width: 90%;
   }
-  #head-section .container .text-section .orange-btn{
+  #head-section .container .text-section .orange-btn {
     padding: 5px;
     font-size: 10px;
     margin: 10px;
     margin-left: 0;
   }
-  #service-section .left-section, #service-section .right-section{
+  #service-section .left-section,
+  #service-section .right-section {
     width: 100%;
   }
-  #service-section .container{
+  #service-section .container {
     padding: 0;
     margin: 0;
     width: 100%;
   }
-  #service-section .left-section .container{
+  #service-section .left-section .container {
     padding: 10px;
     margin: 0;
     width: 100%;
   }
-  #service-section .left-section .container .auto-section img{
+  #service-section .left-section .container .auto-section img {
     object-fit: cover;
   }
   #service-section .left-section .container .end-note {
     flex-direction: row;
   }
-  #service-section .left-section .container .end-note p{
+  #service-section .left-section .container .end-note p {
     font-size: 9px;
   }
-  #service-section .left-section .container .end-note img{
+  #service-section .left-section .container .end-note img {
     width: 10%;
   }
-  #service-section .left-section .text-section h3{
+  #service-section .left-section .text-section h3 {
     font-size: 25px;
     padding-top: 10px;
     line-height: normal;
   }
-  #service-section .left-section .text-section p{
+  #service-section .left-section .text-section p {
     font-size: 10px;
     line-height: normal;
     padding-bottom: 10px;
     width: 95%;
   }
-  #service-section .left-section{
+  #service-section .left-section {
     height: 300px;
   }
-  #how-1-section .container .flex .container-3{
+  #how-1-section .container .flex .container-3 {
     width: 100%;
   }
-  #how-1-section .container{
+  #how-1-section .container {
     margin: 0;
     width: 100%;
     padding-left: 10px;
   }
-  #how-1-section .container-3 .text-section{
+  #how-1-section .container-3 .text-section {
     width: 100%;
     height: 170px;
   }
-  
-  #how-1-section .container .flex .container-3 .text-section h2{
+
+  #how-1-section .container .flex .container-3 .text-section h2 {
     font-size: 20px;
     line-height: normal;
     padding-bottom: 20px;
   }
-  #how-1-section .container-3 .text-section .points p{
+  #how-1-section .container-3 .text-section .points p {
     font-size: 12px;
     line-height: normal;
     padding-left: 10px;
     margin-bottom: 20px;
   }
-  #how-1-section .container .flex .container-3 .text-section .points{
+  #how-1-section .container .flex .container-3 .text-section .points {
     flex-direction: row;
   }
-  #how-1-section .container .flex .container-3 .text-section .points .image-box{
+  #how-1-section
+    .container
+    .flex
+    .container-3
+    .text-section
+    .points
+    .image-box {
     width: 6%;
   }
-  #how-1-section .container, #how-1-section .container .flex .image-section{
+  #how-1-section .container,
+  #how-1-section .container .flex .image-section {
     width: 100%;
   }
   #how-1-section .container .flex .image-section .container-2 {
@@ -507,128 +517,134 @@ button {
   #how-1-section .container .flex .image-section .container-2 .car-image {
     width: 100%;
   }
-  #how-1-section .image-section .container-2 .car-image img{
+  #how-1-section .image-section .container-2 .car-image img {
     object-fit: cover;
   }
 
-  #how-1-section .container .flex .image-section .container-2{
+  #how-1-section .container .flex .image-section .container-2 {
     flex-direction: row;
   }
-  #how-1-section .container .flex .image-section, #how-1-section .container .flex .image-section .container-2 .car-image, #how-1-section .container .flex .image-section .container-2 .car-image img{
+  #how-1-section .container .flex .image-section,
+  #how-1-section .container .flex .image-section .container-2 .car-image,
+  #how-1-section .container .flex .image-section .container-2 .car-image img {
     height: 250px;
   }
-  #how-1-section .container .flex .image-section .container-2 .car-image{
+  #how-1-section .container .flex .image-section .container-2 .car-image {
     width: 100%;
   }
-  #how-1-section .container .flex .image-section .container-2 .car-image img{
+  #how-1-section .container .flex .image-section .container-2 .car-image img {
     width: 90%;
   }
-  #how-1-section .container{
+  #how-1-section .container {
     padding-bottom: 0px;
   }
-  #how-2-section .container{
+  #how-2-section .container {
     margin: 0;
     width: 100%;
   }
-  #how-2-section .container{
+  #how-2-section .container {
     padding: 0;
     padding-top: 20px;
   }
-  #how-2-section .container .flex .image-section, #how-2-section .container .flex .image-section .car-image,#how-2-section .container .flex.image-section .car-image img{
+  #how-2-section .container .flex .image-section,
+  #how-2-section .container .flex .image-section .car-image,
+  #how-2-section .container .flex.image-section .car-image img {
     width: 100%;
   }
-  #how-2-section .container .image-section{
+  #how-2-section .container .image-section {
     height: 400px;
   }
-  #how-2-section .container .image-section .car-image img{
+  #how-2-section .container .image-section .car-image img {
     height: 200px;
     object-fit: cover;
   }
-  #how-2-section .container .text-section .container{
+  #how-2-section .container .text-section .container {
     margin: 0;
     padding: 10px;
     width: 100%;
   }
-  #how-2-section .container .text-section{
+  #how-2-section .container .text-section {
     width: 100%;
   }
-  #how-2-section .container .text-section .container h2{
+  #how-2-section .container .text-section .container h2 {
     font-size: 20px;
     line-height: normal;
     padding: 10px 0 10px 0;
   }
-  #how-2-section .container .text-section .container p{
+  #how-2-section .container .text-section .container p {
     font-size: 10px;
     line-height: normal;
     width: 100%;
     margin: 0;
   }
-  #how-2-section .container .text-section .container button{
+  #how-2-section .container .text-section .container button {
     padding: 5px;
     font-size: 10px;
     margin: 10px 0 10px 0;
   }
-  #cta .photo-set{
+  #cta .photo-set {
     flex-direction: column;
     width: 100%;
     min-height: 50vh;
   }
-  #cta .get-in p{
+  #cta .get-in p {
     font-size: 16px;
     padding: 0;
     margin: 0;
     line-height: normal;
   }
-  #cta{
+  #cta {
     width: 100%;
     padding-bottom: 0;
     padding-top: 20px;
   }
-  .photo-set .img-1, .photo-set .img-2, .photo-set .get-in{
+  .photo-set .img-1,
+  .photo-set .img-2,
+  .photo-set .get-in {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 20vh;
   }
-  #cta .photo-set .get-in p{
+  #cta .photo-set .get-in p {
     padding: 10px;
     font-size: 25px;
     padding-bottom: 0;
   }
-  #cta .photo-set .get-in input{
+  #cta .photo-set .get-in input {
     padding: 10px;
     margin-left: 20px;
     padding: 5px;
     margin: 5px;
     font-size: 14px;
   }
-  #footer .top-container{
+  #footer .top-container {
     opacity: 0.9;
   }
-  #footer .top-container .container-8{
+  #footer .top-container .container-8 {
     flex-direction: column;
     width: 100%;
   }
   #footer .top-container .container-8 {
     padding: 40px;
   }
-  #footer .top-container .container-8 h3{
+  #footer .top-container .container-8 h3 {
     font-size: 40px;
     line-height: normal;
     margin-bottom: 30px;
   }
-  #footer .top-container .container-8 img{
+  #footer .top-container .container-8 img {
     padding-bottom: 10px;
   }
-  #footer .top-container .container-8 .rt p{
+  #footer .top-container .container-8 .rt p {
     margin: 0;
     font-size: 16px;
   }
-  #footer .top-container .container-8 .rt h5{
+  #footer .top-container .container-8 .rt h5 {
     margin: 0;
   }
-  #footer .bottom-container{
+  #footer .bottom-container {
     flex-direction: column;
     width: 100%;
     padding: 0;
@@ -637,159 +653,167 @@ button {
     justify-content: center;
     align-items: center;
   }
-  #footer .bottom-container .links ul a{
+  #footer .bottom-container .links ul a {
     font-size: 10px;
     line-height: normal;
   }
-  #footer .bottom-container .links{
+  #footer .bottom-container .links {
     width: 100%;
   }
-  #footer .bottom-container .links ul{
+  #footer .bottom-container .links ul {
     justify-content: center;
     align-items: center;
   }
-  #footer .bottom-container p{
+  #footer .bottom-container p {
     font-size: 11px;
   }
 }
 
 /* tablet view */
 @media (min-width: 520px) and (max-width: 769px) {
-  .container{
+  .container {
     width: 90%;
   }
-  .road-assistance{
+  .road-assistance {
     display: none;
   }
-  .main-header .right-section .navigation{
+  .main-header .right-section .navigation {
     border: none;
   }
-  #head-section .container .image-section img{
+  #head-section .container .image-section img {
     width: 100%;
     height: 333.5px;
     object-fit: cover;
   }
-  #head-section .container .text-section{
+  #head-section .container .text-section {
     padding: 10px;
     padding-bottom: 0;
     height: 333.5px;
   }
-  #head-section .container .text-section h2{
+  #head-section .container .text-section h2 {
     font-size: 40px;
   }
-  #head-section .container .text-section button{
+  #head-section .container .text-section button {
     padding: 10px;
   }
-  #service-section .left-section .container{
+  #service-section .left-section .container {
     padding: 20px;
     width: 90%;
     height: 100%;
   }
 
-  #service-section .left-section, #service-section .right-section{
+  #service-section .left-section,
+  #service-section .right-section {
     width: 100%;
   }
-  #service-section .right-section .container{
+  #service-section .right-section .container {
     width: 100%;
     height: 100%;
   }
-  #service-section .left-section, #service-section .right-section .container .col-left, #service-section .left-section, #service-section .right-section .container .col-right{
+  #service-section .left-section,
+  #service-section .right-section .container .col-left,
+  #service-section .left-section,
+  #service-section .right-section .container .col-right {
     width: 100%;
   }
-  #service-section .left-section, #service-section .right-section .container .col-left img, #service-section .left-section, #service-section .right-section .container .col-right img{
+  #service-section .left-section,
+  #service-section .right-section .container .col-left img,
+  #service-section .left-section,
+  #service-section .right-section .container .col-right img {
     width: 90%;
     height: 30%;
     object-fit: cover;
   }
-  #how-1-section{
-    height: 600px
+  #how-1-section {
+    height: 600px;
   }
-  #how-1-section .container{
+  #how-1-section .container {
     padding-bottom: 0;
   }
-  
-  #how-1-section .text-section{
+
+  #how-1-section .text-section {
     width: 95%;
   }
-  #how-1-section .text-section h2{
+  #how-1-section .text-section h2 {
     font-size: 35px;
     line-height: 50px;
     padding-bottom: 50px;
   }
-  #how-1-section .text-section .points p{
+  #how-1-section .text-section .points p {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 30px;
   }
-  #how-1-section .image-section .container-2{
+  #how-1-section .image-section .container-2 {
     width: 100%;
   }
-  #how-1-section .image-section .container-2 .car-image img{
+  #how-1-section .image-section .container-2 .car-image img {
     height: 540px;
     object-fit: cover;
   }
-  #how-2-section .container .image-section{
+  #how-2-section .container .image-section {
     width: 70%;
   }
-  #how-2-section .container .image-section .car-image{
+  #how-2-section .container .image-section .car-image {
     width: 100%;
   }
-  #how-2-section .container .image-section .car-image img{
+  #how-2-section .container .image-section .car-image img {
     width: 95%;
     object-fit: cover;
   }
-  #how-2-section .container .text-section .container{
+  #how-2-section .container .text-section .container {
     width: 95%;
   }
-  #how-2-section .container .text-section .container h2{
+  #how-2-section .container .text-section .container h2 {
     font-size: 35px;
     line-height: 40px;
     padding-bottom: 30px;
   }
-  #how-2-section .container .text-section .container p{
+
+  #how-2-section .container .text-section .container p {
     line-height: 30px;
     margin-bottom: 10px;
   }
-  #how-2-section .container .text-section .container button{
+  #how-2-section .container .text-section .container button {
     padding: 10px;
     margin-top: 10px;
   }
-  #cta .photo-set .get-in p{
+  #cta .photo-set .get-in p {
     font-size: 18px;
     margin: 0;
     line-height: normal;
   }
-  #cta .photo-set .get-in input{
+  #cta .photo-set .get-in input {
     padding: 5px;
     margin-top: 20px;
     font-size: 12px;
   }
-  #footer .top-container{
+  #footer .top-container {
     opacity: 0.9;
   }
-  #footer .top-container .container-8{
+  #footer .top-container .container-8 {
     flex-direction: row;
     width: 100%;
   }
   #footer .top-container .container-8 {
     padding: 40px;
   }
-  #footer .top-container .container-8 h3{
+  #footer .top-container .container-8 h3 {
     font-size: 40px;
     line-height: normal;
     margin-bottom: 30px;
   }
-  #footer .top-container .container-8 img{
+  #footer .top-container .container-8 img {
     padding-bottom: 10px;
   }
-  #footer .top-container .container-8 .rt p{
+  #footer .top-container .container-8 .rt p {
     margin: 0;
     font-size: 16px;
   }
-  #footer .top-container .container-8 .rt h5{
+  #footer .top-container .container-8 .rt h5 {
     margin: 0;
   }
-  #footer .bottom-container{
+  #footer .bottom-container {
     flex-direction: column;
     width: 100%;
     padding: 0;
@@ -798,30 +822,15 @@ button {
     justify-content: center;
     align-items: center;
   }
-  #footer .bottom-container .links ul a{
+  #footer .bottom-container .links ul a {
     font-size: 16px;
     line-height: normal;
   }
-  #footer .bottom-container .links{
+  #footer .bottom-container .links {
     width: 100%;
     padding: 10px 10px;
   }
-  #footer .bottom-container p{
+  #footer .bottom-container p {
     font-size: 12px;
   }
-  
-  
-
-
-
-
 }
-
-
-
-
-
-
-
-
-

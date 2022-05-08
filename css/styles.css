@@ -518,6 +518,7 @@ button {
 .big-container .lines {
   text-align: center;
   margin-top: 10px;
+  display: none;
 }
 #faq{
   background: rgba(226, 230, 233, 1);

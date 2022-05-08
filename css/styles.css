@@ -851,6 +851,7 @@ button {
   #cta .photo-set{
     flex-direction: column;
     width: 100%;
+    min-height: 100vh;
   }
   #cta .get-in p{
     font-size: 16px;

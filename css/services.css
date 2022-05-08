@@ -60,6 +60,7 @@ body {
 }
 #head-section .container .image-section img{
   width: 100%;
+  object-fit: cover;
 }
 #head-section .container .text-section{
   width: 50%;
@@ -147,6 +148,7 @@ button {
 }
 #service-section .right-section .container img{
   margin-bottom: 20px;
+  object-fit: cover;
 }
 #how-1-section .container{
   padding: 80px 0;
@@ -172,6 +174,7 @@ button {
 #how-1-section .image-section .car-image img{
   width: 95%;
   height: 600px;
+  object-fit: cover;
 }
 #how-1-section .text-section .points .image-box{
   width: 10%;
@@ -181,6 +184,7 @@ button {
 }
 #how-1-section .text-section .points .image-box img{
   width: 100%;
+  object-fit: cover;
 }
 #how-1-section .text-section h2{
   font-size: 48px;
@@ -214,6 +218,7 @@ button {
 #how-2-section .container .image-section .car-image img{
   width: 80%;
   height: 600px;
+  object-fit: cover;
 }
 #how-2-section .container .text-section{
   width: 40%;
@@ -311,6 +316,7 @@ button {
 .container-8 .lt img{
   text-decoration: none;
   width: 50%;
+  object-fit: cover;
 }
 .container-8 .rt h5{
   font-size: 18px;
@@ -646,6 +652,172 @@ button {
     font-size: 11px;
   }
 }
+
+/* tablet view */
+@media (min-width: 520px) and (max-width: 769px) {
+  .container{
+    width: 90%;
+  }
+  .road-assistance{
+    display: none;
+  }
+  .main-header .right-section .navigation{
+    border: none;
+  }
+  #head-section .container .image-section img{
+    width: 100%;
+    height: 333.5px;
+    object-fit: cover;
+  }
+  #head-section .container .text-section{
+    padding: 10px;
+    padding-bottom: 0;
+    height: 333.5px;
+  }
+  #head-section .container .text-section h2{
+    font-size: 40px;
+  }
+  #head-section .container .text-section button{
+    padding: 10px;
+  }
+  #service-section .left-section .container{
+    padding: 20px;
+    width: 90%;
+    height: 100%;
+  }
+
+  #service-section .left-section, #service-section .right-section{
+    width: 100%;
+  }
+  #service-section .right-section .container{
+    width: 100%;
+    height: 100%;
+  }
+  #service-section .left-section, #service-section .right-section .container .col-left, #service-section .left-section, #service-section .right-section .container .col-right{
+    width: 100%;
+  }
+  #service-section .left-section, #service-section .right-section .container .col-left img, #service-section .left-section, #service-section .right-section .container .col-right img{
+    width: 90%;
+    height: 30%;
+    object-fit: cover;
+  }
+  #how-1-section{
+    height: 600px
+  }
+  #how-1-section .container{
+    padding-bottom: 0;
+  }
+  
+  #how-1-section .text-section{
+    width: 95%;
+  }
+  #how-1-section .text-section h2{
+    font-size: 35px;
+    line-height: 50px;
+    padding-bottom: 50px;
+  }
+  #how-1-section .text-section .points p{
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  #how-1-section .image-section .container-2{
+    width: 100%;
+  }
+  #how-1-section .image-section .container-2 .car-image img{
+    height: 540px;
+    object-fit: cover;
+  }
+  #how-2-section .container .image-section{
+    width: 70%;
+  }
+  #how-2-section .container .image-section .car-image{
+    width: 100%;
+  }
+  #how-2-section .container .image-section .car-image img{
+    width: 95%;
+    object-fit: cover;
+  }
+  #how-2-section .container .text-section .container{
+    width: 95%;
+  }
+  #how-2-section .container .text-section .container h2{
+    font-size: 35px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+  #how-2-section .container .text-section .container p{
+    font-size: ;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  #how-2-section .container .text-section .container button{
+    padding: 10px;
+    margin-top: 10px;
+  }
+  #cta .photo-set .get-in p{
+    font-size: 18px;
+    margin: 0;
+    line-height: normal;
+  }
+  #cta .photo-set .get-in input{
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  #footer .top-container{
+    opacity: 0.9;
+  }
+  #footer .top-container .container-8{
+    flex-direction: row;
+    width: 100%;
+  }
+  #footer .top-container .container-8 {
+    padding: 40px;
+  }
+  #footer .top-container .container-8 h3{
+    font-size: 40px;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+  #footer .top-container .container-8 img{
+    padding-bottom: 10px;
+  }
+  #footer .top-container .container-8 .rt p{
+    margin: 0;
+    font-size: 16px;
+  }
+  #footer .top-container .container-8 .rt h5{
+    margin: 0;
+  }
+  #footer .bottom-container{
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer .bottom-container .links ul a{
+    font-size: 16px;
+    line-height: normal;
+  }
+  #footer .bottom-container .links{
+    width: 100%;
+    padding: 10px 10px;
+  }
+  #footer .bottom-container p{
+    font-size: 12px;
+  }
+  
+  
+
+
+
+
+}
+
 
 
 

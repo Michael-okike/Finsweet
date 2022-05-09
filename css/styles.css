@@ -954,7 +954,7 @@ button {
     height: 30%;
   }
   #testimonials-section {
-    min-height: 10vh;
+    min-height: 70vh;
     width: 100%;
   }
   #testimonials-section .heading h2 {
@@ -981,7 +981,7 @@ button {
     padding: 0;
     padding-top: 5px;
     margin: 0;
-    height: 23vh;
+    height: 27vh;
     width: 100%;
     margin-bottom: 10px;
   }
@@ -1001,7 +1001,7 @@ button {
     padding: 0;
     padding-top: 5px;
     margin: 0;
-    height: 23vh;
+    height: 27vh;
     width: 100%;
   }
   .container-6 .left-section .comment .image-box,

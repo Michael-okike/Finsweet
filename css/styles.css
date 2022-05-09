@@ -254,7 +254,7 @@ button {
 #offer{
   background: rgba(242, 242, 242, 1);
   background-size: cover;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 .container-4 {
   padding: 80px 0;
@@ -329,7 +329,6 @@ button {
 }
 
 .photo-set {
-  height: 70vh;
   display: flex;
   align-items: center;
   width: 100%;
@@ -359,7 +358,7 @@ button {
 }
 
 .get-in p {
-  font-size: 48px;
+  font-size: 45px;
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   line-height: normal;
@@ -876,6 +875,7 @@ button {
   }
   #cta .get-in{
     height: 50vh;
+    padding: 10px;
   }
   #cta .get-in p {
     font-size: 16px;
@@ -971,7 +971,6 @@ button {
   }
   #testimonials-section .container-6 h5 {
     font-size: 12px;
-    margin-bottom: 5px;
     line-height: normal;
   }
   #testimonials-section .container-6 .text-box p {
@@ -991,7 +990,7 @@ button {
   }
   .container-6 .left-section .comment .image-box,
   .container-6 .right-comment-section .comment .image-box {
-    width: 7%;
+    width: 5%;
   }
   .container-6 .right-comment-section .comment .image-box img,
   .container-6 .left-section .comment .image-box img {

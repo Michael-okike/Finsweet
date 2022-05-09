@@ -251,13 +251,15 @@ button {
   font-size: 18px;
   cursor: pointer;
 }
-
-.container-4 {
+#offer{
   background: rgba(242, 242, 242, 1);
   background-size: cover;
-  width: 100%;
-  min-height: 50vh;
+  min-height: 100vh;
+}
+.container-4 {
   padding: 80px 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .top-text {
@@ -277,35 +279,38 @@ button {
   font-weight: 600;
 }
 
-.container-box {
-  padding-top: 30px;
-  margin: 0 auto;
-  width: 70%;
-}
-#offer .container-box .col-1 {
+.container-4  .container-box .col-1 {
+  background: white;
+  height: 232px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 24%;
+  margin-bottom: 12px;
+}
+#offer .container-box {
   flex-wrap: wrap;
-  position: relative;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 15px;
 }
-#offer .container-box .col-2 {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
+#offer .container-box .col-1:hover {
+  background: #ff6433;
+  color: white;
 }
-.container-box img {
-  border-right: 7px solid rgba(242, 242, 242, 1);
-  border-bottom: 3px solid rgba(242, 242, 242, 1);
-}
-
-.container-box img:hover {
+#offer .container-box .col-1 img:hover{
   transform: scale(1.2);
 }
-
-.end-note {
+.end-note{
   display: flex;
-  margin-top: 25px;
   justify-content: flex-end;
-  margin-right: 43rem;
+}
+.end-note a {
+  display: flex;
+  color: black;
+  text-decoration: none;
+  margin-top: 25px;
 }
 
 .end-note p {
@@ -324,7 +329,7 @@ button {
 }
 
 .photo-set {
-  height: 50vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   width: 100%;
@@ -333,43 +338,43 @@ button {
 .img-1 {
   background: url(https://i.postimg.cc/Pqt0zGL7/car.png);
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   width: 25%;
 }
 
 .img-2 {
   background: url(https://i.postimg.cc/GtBW8kBh/red-black.png);
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   width: 35%;
 }
 
 .get-in {
   background: url(https://i.postimg.cc/D0Ty2S2H/BG.png);
   background-size: cover;
-  height: 50vh;
+  height: 60vh;
   width: 40%;
   background-position: absolute;
+  padding: 20px;
 }
 
 .get-in p {
   font-size: 48px;
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
-  line-height: 50px;
-  padding-top: 20px;
-  padding-left: 50px;
-  margin-top: 5rem;
+  line-height: normal;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .get-in input[type="submit"] {
   background-color: black;
   color: #f2f2f2;
-  padding: 16px 40px;
+  padding: 12px 20px;
   border-radius: 15px;
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 18px;
-  margin-left: 50px;
+  margin-left: 18px;
   border: none;
   cursor: pointer;
 }
@@ -377,7 +382,7 @@ button {
 .experience {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-right: 80px;
 }
 
@@ -396,7 +401,7 @@ button {
 }
 
 #first {
-  margin-left: 300px;
+  margin-left: 100px;
 }
 
 #last {
@@ -421,7 +426,7 @@ button {
   background: #f2f2f2;
   mix-blend-mode: multiply;
   width: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 #testimonials-section .heading {
   padding: 80px 0;
@@ -436,6 +441,7 @@ button {
 }
 #testimonials-section .container-6 {
   display: flex;
+  justify-content: space-between;
 }
 #testimonials-section .left-section {
   background-color: white;
@@ -444,9 +450,9 @@ button {
   border-radius: 6px;
   border: 1px solid rgba(172, 172, 172, 0.29);
   height: 45vh;
-  padding: 40px;
-  width: 30%;
-  margin-left: 300px;
+  padding: 20px;
+  width: 40%;
+  margin-left: 100px;
 }
 #testimonials-section .left-section .comment {
   display: flex;
@@ -461,13 +467,13 @@ button {
   line-height: 36px;
 }
 .left-section .comment .text-box p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #939191;
 }
 .left-section .comment-text p {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 600;
 }
 #testimonials-section .right-comment-section {
@@ -477,8 +483,8 @@ button {
   border-radius: 6px;
   border: 1px solid rgba(172, 172, 172, 0.29);
   height: 45vh;
-  padding: 40px;
-  width: 30%;
+  padding: 20px;
+  width: 40%;
   margin-right: 70px;
   margin-left: 120px;
 }
@@ -495,13 +501,13 @@ button {
   line-height: 36px;
 }
 .right-comment-section .comment .text-box p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #939191;
 }
 .right-comment-section .comment-text p {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 600;
 }
 .big-container {
@@ -512,7 +518,6 @@ button {
   display: flex;
   align-content: flex-end;
   justify-content: right;
-  margin-right: 400px;
   margin-top: 20px;
 }
 .big-container .lines {
@@ -830,13 +835,17 @@ button {
   #offer .container-box {
     display: flex;
     padding-bottom: 0;
+    width: 100%;
+    flex-direction: row;
   }
-  #offer .container-box .col-2 {
-    display: flex;
+  #offer .container-box .col-1{
+    width: 48%;
   }
-  #offer .container-box .col-1 .box-2 {
-    display: flex;
+  #offer .container-box .col-1 #wheel img{
+    background: black;
+    opacity: 0.5;
   }
+  
   #offer .container-4 .top-text {
     margin-top: 10px;
     padding-top: 10px;
@@ -845,16 +854,36 @@ button {
     font-size: 30px;
     line-height: normal;
   }
+  #offer .container-4 .end-note{
+    width: 100%;
+  }
+  #offer .container-4 .end-note a{
+    margin: 0;
+  }
+  #offer .container-4 .end-note p{
+    font-size: 12px;
+    line-height: normal;
+    margin: 0;
+    width: 70%;
+  }
+  #offer .container-4 .end-note img{
+    width: 30%;
+  }
   #cta .photo-set {
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
+  }
+  #cta .get-in{
+    height: 50vh;
   }
   #cta .get-in p {
     font-size: 16px;
     padding: 0;
     margin: 0;
     line-height: normal;
+    font-size: 25px;
+    padding-bottom: 0;
   }
   #cta {
     width: 100%;
@@ -895,16 +924,10 @@ button {
     background-repeat: no-repeat;
     width: 100%;
   }
-  #cta .photo-set .get-in p {
-    padding: 10px;
-    font-size: 25px;
-    padding-bottom: 0;
-  }
   #cta .photo-set .get-in input {
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 2px;
     padding: 5px;
-    margin: 5px;
     font-size: 14px;
   }
   #brands {
@@ -958,7 +981,7 @@ button {
     padding: 0;
     padding-top: 5px;
     margin: 0;
-    height: 20vh;
+    height: 23vh;
     width: 100%;
     margin-bottom: 10px;
   }
@@ -978,7 +1001,7 @@ button {
     padding: 0;
     padding-top: 5px;
     margin: 0;
-    height: 20vh;
+    height: 23vh;
     width: 100%;
   }
   .container-6 .left-section .comment .image-box,
@@ -1169,27 +1192,27 @@ button {
     padding-right: 0;
   }
   #offer .container-4 .container-box {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
-  #offer .container-4 .container-box .col-1,
-  #offer .container-4 .container-box .col-2 {
-    flex-direction: column;
-    width: 50%;
-    position: relative;
-    flex-wrap: wrap;
+  #offer .container-4{
+    padding-bottom: 30px;
   }
-  #offer .container-4 .container-box .col-1 img,
-  #offer .container-4 .container-box .col-2 img {
-    width: 100%;
+  #offer .container-4 .top-text{
+    margin: 0;
+  }
+  #offer .container-4 .container-box .col-1{
+    width: 24%;
+  }
+  #offer .container-box .col-1 #wheel img{
+    background: black;
+    opacity: 0.5;
   }
   #offer .container-4 .end-note {
     margin: 0 auto;
-    width: 90%;
-    padding-top: 20px;
     justify-content: flex-end;
   }
   #offer .container-4 #end-note img {
@@ -1197,6 +1220,9 @@ button {
   }
   #offer .container-4 #end-note p {
     line-height: normal;
+  }
+  #cta{
+    padding-bottom: 20px;
   }
   #cta .experience {
     margin: 0 auto;
